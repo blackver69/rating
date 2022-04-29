@@ -13,6 +13,7 @@
 		BA18FD51281C50F60012A93B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA18FD4F281C50F60012A93B /* Main.storyboard */; };
 		BA18FD53281C50F70012A93B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA18FD52281C50F70012A93B /* Assets.xcassets */; };
 		BA18FD56281C50F70012A93B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA18FD54281C50F70012A93B /* LaunchScreen.storyboard */; };
+		BA18FD5E281C514D0012A93B /* RatingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA18FD5D281C514D0012A93B /* RatingCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BA18FD52281C50F70012A93B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA18FD55281C50F70012A93B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA18FD57281C50F70012A93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA18FD5D281C514D0012A93B /* RatingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				BA18FD52281C50F70012A93B /* Assets.xcassets */,
 				BA18FD54281C50F70012A93B /* LaunchScreen.storyboard */,
 				BA18FD57281C50F70012A93B /* Info.plist */,
+				BA18FD5D281C514D0012A93B /* RatingCollectionViewCell.swift */,
 			);
 			path = rating;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA18FD4E281C50F60012A93B /* ViewController.swift in Sources */,
+				BA18FD5E281C514D0012A93B /* RatingCollectionViewCell.swift in Sources */,
 				BA18FD4A281C50F60012A93B /* AppDelegate.swift in Sources */,
 				BA18FD4C281C50F60012A93B /* SceneDelegate.swift in Sources */,
 			);
